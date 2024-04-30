@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import carzone from "../../Assets/Projects/carzone.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import foodonline from "../../Assets/Projects/foodonline.png";
-import adult from '../../Assets/Projects/adult.jpeg'; 
+import adult from "../../Assets/Projects/adult.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -52,13 +52,12 @@ function Projects() {
             <ProjectCard
               imgPath={adult}
               isBlog={false}
-              title="Adult Content Shop"
-              description="A Adult Ecommerce Site for buying Adult Movies with Multilingual support supporting english and german language."
-              ghLink="https://github.com/bishal189/Moviewebsites"
-              demoLink="http://sandesh1.pythonanywhere.com/"
+              title="Hundi"
+              description="Hundi is a site for sending and receiving money from one country to another.It also allows to pay various bills like internet,electricity,water etc.And also allows to send topup credits from one user to another which allows to withdraw for actual money."
+              ghLink="https://github.com/bishal189/Hundi"
+              demoLink="http://hundi1.netlify.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
