@@ -46,7 +46,7 @@ function Projects() {
               title="Heritage Hive"
               description="Heritage Hive is a online market place for the purpose of promoting the traiditional and antique things and making people accessible to those items."
               ghLink="https://github.com/bishal189/ecommerce_final"
-              demoLink="http://sandesh1.netlify.app/"
+              demoLink="http://sandesh1.pythonanywhere.com/"
             />
           </Col>
           <Col md={4} className="project-card">
