@@ -9,7 +9,7 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineUser
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -36,16 +36,15 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-  
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
+          <span />
+          <span />
+          <span />
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
@@ -88,11 +87,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-          
-
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/sandeshstaula/Portfolio"
+                href="https://github.com/sandeshsitaula/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
