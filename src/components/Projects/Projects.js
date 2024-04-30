@@ -24,7 +24,7 @@ function Projects() {
               imgPath={adult}
               isBlog={false}
               title="Hundi"
-              description="Hundi is a site for sending and receiving money from one country to another.It also allows to pay various bills like internet,electricity,water etc.And also allows to send topup credits from one user to another which allows to withdraw for actual money."
+              description="Hundi is a site for sending and receiving money from one country to another.It also allows to pay various bills and also acts as an ecommerce site for buying products.It allows to send topup credits from one user to another which allows users to withdraw for actual money."
               ghLink="https://github.com/bishal189/Hundi"
               demoLink="http://hundi1.netlify.app/"
             />
