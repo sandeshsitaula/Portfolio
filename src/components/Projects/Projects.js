@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import carzone from "../../Assets/Projects/carzone.png";
-import ecommerce from "../../Assets/Projects/ecommerce.png";
-import foodonline from "../../Assets/Projects/foodonline.png";
-import adult from "../../Assets/Projects/adult.png";
-import heritage from "../../Assets/Projects/heritage.png";
+import maple from "../../Assets/Projects/maple.png";
+import arm_solutions from "../../Assets/Projects/arm-solutions.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -16,57 +13,25 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently (Various Other Projects couldnot be shown because of company policies.).
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={adult}
+              imgPath={maple}
               isBlog={false}
-              title="Hundi"
-              description="Hundi is a site for sending and receiving money from one country to another.It also allows to pay various bills and also acts as an ecommerce site for buying products.It allows to send topup credits from one user to another which allows users to withdraw for actual money."
-              ghLink="https://github.com/bishal189/Hundi"
-              demoLink="http://hundi1.netlify.app/"
+              title="MapleCourtYardDesigns"
+              description="MapleCourtYard is a fully functional eCommerce platform dedicated to selling personalized handmade cards for all occasions. Built entirely with Django, the system offers a seamless shopping experience with a wide range of customization options, ensuring every card is unique and heartfelt. The platform includes a secure payment system, user-friendly navigation. From birthdays to anniversaries, MapleCourtYard combines creativity and technology to deliver meaningful connections through handmade cards."
+              demoLink="https://maplecourtyarddesigns.co.uk/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={carzone}
               isBlog={false}
-              title="CarZone"
-              description="A Place to Sell Cars And get Services for Cars like repairing and so on . Developed Using Django "
-              ghLink="https://github.com/bishal189/django-car"
-              demoLink="http://navalta111.pythonanywhere.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={heritage}
-              isBlog={false}
-              title="Heritage Hive"
-              description="Heritage Hive is a online market place for the purpose of promoting the traiditional and antique things and making people accessible to those items."
-              ghLink="https://github.com/bishal189/ecommerce_final"
-              demoLink="http://sandesh1.pythonanywhere.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerce}
-              isBlog={false}
-              title="GreatKart "
-              description="A Ecommerce Site  to Buy Clothes and other accessories like Shoes,Glasses etc. . Developed Using Django "
-              ghLink="https://github.com/bishal189/ecommerce"
-              demoLink="https://bishal11.pythonanywhere.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={foodonline}
-              isBlog={false}
-              title="FoodOnline"
-              description="A Place to choose the best food around resturants in town.See all the menus and prices offered by various resturants ."
-              ghLink="https://github.com/bishal189/foodonline"
-              demoLink="http://justpie8.pythonanywhere.com/"
+              imgPath={arm_solutions}
+              title="Arm Soluions"
+              description="ARM Solutions is a Django-based web development platform offering scalable, responsive websites with secure payment systems and advanced database management. Designed for performance and user engagement, it delivers seamless functionality to elevate online business presence."
+              demoLink="https://arm-solutions.co.uk/"
             />
           </Col>
         </Row>
